@@ -44,8 +44,11 @@ To enable AI features, you need to obtain an API Key from Google Gemini and inse
 
 __**Important:**__
 For static deployments like this, your API Key will be visible on the client-side. Consider the security implications if your API Key has sensitive access.
+
 Obtain your API Key from Google AI Studio: https://aistudio.google.com/app/apikey
+
 __Find the following line in index.html and replace "" with your API Key:__
+
 ```js
 const geminiApiKey = ""; // Insert your Gemini API Key here
 ```
