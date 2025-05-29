@@ -243,7 +243,11 @@
                 }
             } catch (error) {
                 console.error("Error calling Gemini API:", error);
-                aiResponseContent.innerHTML = `<p style="color: var(--accent-red);">Sorry, an error occurred while trying to get AI assistance.</p><p class="text-xs mt-2">Detail: ${error.message}</p>`;
+                aiResponseContent.innerHTML = `
+                  <p style="color: var(--accent-red);">Please don't forget to add GEMINI APIKEY first.</p>
+                  <p class="text-xs mt-2">Detail: ${error.message}</p>
+                  <p><a href="https://github.com/erbots/status-page-with-gemini" target="_blank">See More</a></p>
+                `;
             }
         }
 
@@ -401,7 +405,7 @@
                 const aiHelpButton = document.createElement('button');
                 aiHelpButton.className = 'action-button action-button-ai ai-error-help-button';
                 aiHelpButton.title = 'Get AI Help for Error';
-                aiHelpButton.innerHTML = '❓ AI Error';
+                aiHelpButton.innerHTML = 'Why ❓';
                 aiHelpButton.type = 'button';
                 aiHelpButton.dataset.endpointName = endpoint.name;
                 aiHelpButton.dataset.endpointPath = fullUrl;
