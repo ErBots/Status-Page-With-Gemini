@@ -6,6 +6,9 @@ on:
       - main
     workflow-dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   prettier:
     runs-on: ubuntu-latest
