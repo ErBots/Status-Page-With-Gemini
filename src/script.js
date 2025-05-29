@@ -207,7 +207,7 @@
 
             let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
             const payload = { contents: chatHistory };
-            const geminiApiKey = ""; // Keep this empty, Canvas will inject the key at runtime
+            const geminiApiKey = ""; // put your apikey here
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiApiKey}`;
 
             try {
