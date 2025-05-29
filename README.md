@@ -21,6 +21,7 @@ A modern and responsive status page designed to monitor the health of various AP
 ## 🚀 Live Demo
 
 [**Live Demo →**](https://er-api.biz.id/status)
+
 ## 🛠️ Installation
 
 ```bash
@@ -31,6 +32,7 @@ cd status-page-with-gemini
 ## ⚙️ Configuration
 
 Set your variables in `index.html`:
+
 ```javascript
 const API_BASE_URL = "https://er-api.biz.id";
 const GITHUB_REPO_USER = "ErBots";
@@ -42,12 +44,12 @@ const geminiApiKey = ""; // Your Gemini API Key
 
 To enable AI features, you need to obtain an API Key from Google Gemini and insert it into the code.
 
-__**Important:**__
+****Important:****
 For static deployments like this, your API Key will be visible on the client-side. Consider the security implications if your API Key has sensitive access.
 
 Obtain your API Key from Google AI Studio: https://aistudio.google.com/app/apikey
 
-__Find the following line in index.html and replace "" with your API Key:__
+**Find the following line in index.html and replace "" with your API Key:**
 
 ```js
 const geminiApiKey = ""; // Insert your Gemini API Key here
@@ -61,14 +63,17 @@ const geminiApiKey = ""; // Insert your Gemini API Key here
 ## 🚀 Deployment Options
 
 ### Vercel
+
 Click the button to clone this repository and deploy it on Vercel:
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Ferbots%2Fstatus-page-with-gemini&showOptionalTeamCreation=false) **__THIS IS NOT TESTED YET__** 
+[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Ferbots%2Fstatus-page-with-gemini&showOptionalTeamCreation=false) ****THIS IS NOT TESTED YET****
 
 ### GitHub Pages
+
 1. Go to Repository Settings → Pages
 2. Select main branch and root directory "/"
 3. Save and wait for deployment
 
 ## 🤝 Contributing
+
 Contributions are highly appreciated! If you have suggestions, bug fixes, or new features, please open an issue or submit a pull request
