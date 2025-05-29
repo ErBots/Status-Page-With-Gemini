@@ -21,8 +21,8 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.3
+      - name: Format Code
+        uses: ErBots/auto-linting@v0.0.0.0
         with:
-          prettier_options: '--write **/*.{js,ts,tsx,json,md,css}'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+           enable_prettier: true
+           enable_eslint: true
