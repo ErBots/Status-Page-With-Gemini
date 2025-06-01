@@ -25,7 +25,7 @@ A modern and responsive status page designed to monitor the health of various AP
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/YourGitHubUsername/status-page-with-gemini.git
+git clone https://github.com/ErBots/status-page-with-gemini.git
 cd status-page-with-gemini
 ```
 
